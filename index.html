@@ -1,13 +1,3 @@
 <!doctype html> <html> <head> <meta charset="utf-8"> <title></title> <meta name="description" content=""> <meta name="viewport" content="width=device-width"> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel="stylesheet" href="styles/main.54d13ed0.css"> </head> <body ng-app="demoWebEducWebApp" ng-cloak translate-cloak> <!--[if lte IE 8]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]--> <!-- Add your site or application content here --> <div class="header"> <div class="navbar navbar-default navbar-fixed-top" role="navigation"> <div class="container"> <div class="navbar-header"> <a class="navbar-brand" href="#/">demoWebEducWeb</a> <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button> --> </div> <!-- <div class="collapse navbar-collapse" id="js-navbar-collapse">
-
-            <ul class="nav navbar-nav">
-              <li class="active"><a ui-sref="home" href>Home</a></li>
-            </ul>
-          </div> --> </div> </div> </div> <div class="container"> <div ui-view></div> </div> <div class="footer footer-default"> <div class="container"> <span>{{ 'footer.copyright' | translate }}</span> </div> </div> <script src="scripts/vendor.eeafe1f9.js"></script> <script src="scripts/scripts.150b8af7.js"></script> </body> </html>
+    <![endif]--> <!-- Add your site or application content here --> <div class="header"> <div class="navbar navbar-default navbar-fixed-top" role="navigation"> <div class="container"> <div class="navbar-header"> <a class="navbar-brand" href="#/">{{ 'header.brand' | translate }}</a> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> </div> <div class="collapse navbar-collapse" id="js-navbar-collapse"> <ul class="nav navbar-nav"> <li ui-sref-active="active"><a ui-sref="home" href>{{ 'header.menu.home' | translate }}</a></li> </ul> </div> </div> </div> </div> <div class="container"> <div ui-view></div> </div> <div class="footer footer-default"> <div class="container"> <span>{{ 'footer.copyright' | translate }}</span> </div> </div> <script src="scripts/vendor.eeafe1f9.js"></script> <script src="scripts/scripts.2dc46165.js"></script> </body> </html>
