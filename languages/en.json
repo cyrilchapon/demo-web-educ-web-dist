@@ -24,7 +24,16 @@
     },
     "app": {
       "typename": {
-
+        "button": {
+          "save": "Save"
+        },
+        "label": {
+          "inputname": "Name:"
+        },
+        "errors": {
+          "success": "Name has been added.",
+          "generic": "Name couldn't be saved."
+        }
       },
       "loadpic": {
         "button": {
@@ -33,12 +42,15 @@
           "save": "Save"
         },
         "errors": {
-          "pictureTooBig": "This picture is too big."
+          "success": "Picture has been added.",
+          "pictureTooBig": "This picture is too big.",
+          "generic": "Picture couldn't be saved."
         }
       },
       "feed": {
         "label": {
-          "picadded": "A picture was added"
+          "picadded": "A picture was added",
+          "nameadded": "A name was typed"
         }
       }
     }
