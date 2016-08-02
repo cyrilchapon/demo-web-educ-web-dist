@@ -23,8 +23,11 @@
       "loadpic": {
         "button": {
           "pickpic": "Choisir une image",
-          "clear": "Supprimer",
+          "clear": "Vider",
           "save": "Sauvegarder"
+        },
+        "errors": {
+          "pictureTooBig": "Cette image et trop volumineuse."
         }
       },
       "feed": {
